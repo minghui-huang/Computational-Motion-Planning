@@ -26,7 +26,9 @@ cmap = [1 1 1; ...
         1 1 0];
 
 colormap(cmap);
-
+input_map(:, 181) = [];
+input_map(181, :) = [];
+    
 
 [nrows, ncols] = size(input_map);
 
